@@ -7,6 +7,8 @@
                     
                     /* My first entry in this project */
                     
+                    /* PETER */
+                    
                     var rateit = $(this).data('productid');
                     var stars = $(this).data('stars');
                     console.log(rateit);
