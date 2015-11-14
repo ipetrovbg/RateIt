@@ -120,7 +120,7 @@ class Users extends CI_Controller {
                     redirect('Moderator_dashboard');
                     break;
                 case 2:
-                    redirect('Administrator_dashboard');
+                    redirect('admin');
                     break;
             }
         }

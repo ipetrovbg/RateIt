@@ -52,3 +52,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'main';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
+
+$route['admin']                     = "Administrator_dashboard";
+$route['moderator']                     = "Moderator_dashboard";
+$route['dashboard']                 = "Dashboard";
+$route['change-password']     = "users/change_password_view";
+$route['send-item']     = "dashboard/send_view";
+$route['sended']     = "dashboard/sended";
+$route['inbox']     = "dashboard/inbox";
+$route['inbox/(:num)']     = "dashboard/inbox/$1";

@@ -14,7 +14,7 @@
 		echo "<td>".$value['title'] . "</td>";
 		echo "<td>".$value['message'] . "</td>";
 		echo "<td>".$value['date_added'] . "</td>";
-		echo "<td>". anchor('dashboard/inbox/'.$value['id'], 'View') . "</td>";
+		echo "<td>". anchor('inbox/'.$value['id'], 'View') . "</td>";
 		echo "</tr>";
 	}
 ?>

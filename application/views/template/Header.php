@@ -57,9 +57,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                 <li><div class="profile_wrapper"><img src="<?php echo base_url() . $member_info['pic']; ?>" alt="<?php echo $member_info['full_name']; ?>"/></div></li>
                                 <?php
                                 if ($this->session->rights == 1):
-                                    echo '<li><p><span class="simptip-position-bottom simptip-movable" data-tooltip="' . $member_info['full_name'] . '">' . anchor('Moderator_dashboard', $member_info['username']) . '</span></p></li>';
+                                    echo '<li><p><span class="simptip-position-bottom simptip-movable" data-tooltip="' . $member_info['full_name'] . '">' . anchor('moderator', $member_info['username']) . '</span></p></li>';
                                 elseif ($this->session->rights == 2):
-                                    echo '<li><p><span class="simptip-position-bottom simptip-movable" data-tooltip="' . $member_info['full_name'] . '">' . anchor('Administrator_dashboard', $member_info['username']) . '</span></p></li>';
+                                    echo '<li><p><span class="simptip-position-bottom simptip-movable" data-tooltip="' . $member_info['full_name'] . '">' . anchor('admin', $member_info['username']) . '</span></p></li>';
                                 else:
                                     echo '<li><p><span class="simptip-position-bottom simptip-movable" data-tooltip="' . $member_info['full_name'] . '">' . anchor('dashboard', $member_info['username']) . '</span></p></li>';
                                 endif;

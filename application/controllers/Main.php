@@ -10,7 +10,7 @@ class Main extends CI_Controller {
     
 
     public function index() {
-
+        
         // title of the page
         $data['title'] = "Rate it - Home";
 
