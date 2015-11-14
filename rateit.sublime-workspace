@@ -1,0 +1,1184 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"con",
+				"config"
+			],
+			[
+				"big",
+				"big_pic"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"im",
+				"img_thumb"
+			],
+			[
+				"border",
+				"border-spacing"
+			],
+			[
+				"das",
+				"dashboard"
+			],
+			[
+				"dashboard_",
+				"dashboard_footer"
+			],
+			[
+				"dash",
+				"dashboard_header"
+			],
+			[
+				"change",
+				"change_password"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"t",
+				"this"
+			],
+			[
+				"REQ",
+				"REQUEST_URI"
+			],
+			[
+				"pos",
+				"post"
+			],
+			[
+				"rec",
+				"receiver"
+			],
+			[
+				"templ",
+				"templates"
+			],
+			[
+				"main",
+				"main_template"
+			],
+			[
+				"te",
+				"template"
+			],
+			[
+				"da",
+				"data"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"sess",
+				"session_unset"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"login",
+				"login_view"
+			],
+			[
+				"date",
+				"date_add"
+			],
+			[
+				"reg",
+				"registration_view"
+			],
+			[
+				"em",
+				"email"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"Pass",
+				"password"
+			],
+			[
+				"dlop",
+				"dlops_model"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"file_",
+				"files_model"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"top",
+				"topH"
+			],
+			[
+				"cal",
+				"calcHeight"
+			],
+			[
+				"get",
+				"getHeight"
+			],
+			[
+				"wor",
+				"work_out"
+			],
+			[
+				"ab",
+				"abilities"
+			],
+			[
+				"co",
+				"Coatch"
+			],
+			[
+				"add",
+				"add_barman"
+			],
+			[
+				"cafe",
+				"cafe_style"
+			],
+			[
+				"ca",
+				"cafe_obj"
+			],
+			[
+				"M",
+				"MusicStyle"
+			],
+			[
+				"B",
+				"Barman"
+			],
+			[
+				"pho",
+				"phone_number"
+			],
+			[
+				"mus",
+				"music_style"
+			],
+			[
+				"caf",
+				"cafe"
+			],
+			[
+				"count_",
+				"count_rating"
+			],
+			[
+				"cur",
+				"curent_tmp"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"v",
+				"value"
+			],
+			[
+				"as",
+				"assessment"
+			],
+			[
+				"stat",
+				"static"
+			],
+			[
+				"get_count",
+				"get_count_teachers"
+			],
+			[
+				"arra",
+				"array"
+			],
+			[
+				"is_a",
+				"is_array"
+			],
+			[
+				"sub",
+				"subject"
+			],
+			[
+				"array_p",
+				"array_push"
+			],
+			[
+				"S",
+				"Subject"
+			],
+			[
+				"m",
+				"margin"
+			],
+			[
+				"coun",
+				"count_rating"
+			],
+			[
+				"cou",
+				"count_hour"
+			],
+			[
+				"p",
+				"public"
+			],
+			[
+				"ph",
+				"phone"
+			],
+			[
+				"n",
+				"nomber_in_class"
+			],
+			[
+				"ext",
+				"extends"
+			],
+			[
+				"s",
+				"subject"
+			],
+			[
+				"impl",
+				"implements"
+			],
+			[
+				"displ",
+				"display_size"
+			],
+			[
+				"batt",
+				"battery_name"
+			],
+			[
+				"b",
+				"battery"
+			],
+			[
+				"disp",
+				"display_class"
+			],
+			[
+				"bat",
+				"battery_class"
+			],
+			[
+				"dat",
+				"date"
+			],
+			[
+				"book",
+				"book_model"
+			],
+			[
+				"arr",
+				"arr2"
+			],
+			[
+				"array",
+				"array"
+			],
+			[
+				"edit",
+				"edit_product"
+			],
+			[
+				"ret",
+				"return"
+			],
+			[
+				"total",
+				"total_available_money"
+			],
+			[
+				"__",
+				"__construct"
+			],
+			[
+				"ava",
+				"Avarage"
+			],
+			[
+				"to",
+				"total_money"
+			],
+			[
+				"pro",
+				"products"
+			],
+			[
+				"qu",
+				"quantity"
+			],
+			[
+				"ed",
+				"edit_product"
+			],
+			[
+				"session_de",
+				"session_destroy"
+			],
+			[
+				"_",
+				"_FILES"
+			],
+			[
+				"ne",
+				"new_password"
+			],
+			[
+				"ac",
+				"action	Attr"
+			],
+			[
+				"hed",
+				"header"
+			],
+			[
+				"session",
+				"session_start"
+			],
+			[
+				"loca",
+				"location"
+			],
+			[
+				"sel",
+				"sel_user_info"
+			],
+			[
+				"pr",
+				"products2"
+			],
+			[
+				"q",
+				"quantity"
+			],
+			[
+				"Pr",
+				"Products"
+			],
+			[
+				"pri",
+				"price"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"str",
+				"strong	Tag"
+			],
+			[
+				"def",
+				"default"
+			],
+			[
+				"new",
+				"new_pic"
+			],
+			[
+				"head",
+				"header"
+			],
+			[
+				"file",
+				"file_name"
+			],
+			[
+				"html",
+				"htmlspecialchars"
+			],
+			[
+				"padding",
+				"padding-right"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"do_",
+				"do_homework"
+			],
+			[
+				"show",
+				"show_info"
+			],
+			[
+				"na",
+				"name"
+			],
+			[
+				"ts",
+				"this"
+			],
+			[
+				"th",
+				"this"
+			],
+			[
+				"sql",
+				"sqlactivities"
+			],
+			[
+				"end",
+				"endif"
+			],
+			[
+				"lis",
+				"list-style"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"cen",
+				"central-img"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"paddi",
+				"padding-left"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"bord",
+				"border"
+			],
+			[
+				"li",
+				"list-style-type"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "application/controllers/Upload.php",
+			"settings":
+			{
+				"buffer_size": 6948,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/User/Dropbox (Rate it)/Rate it Team Folder/rateit/application/views/dashboard/sended.php",
+			"settings":
+			{
+				"buffer_size": 579,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "application/config/autoload.php",
+			"settings":
+			{
+				"buffer_size": 3924,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/views/Upload_form.php",
+			"settings":
+			{
+				"buffer_size": 1772,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "application/views/dashboard/Delete_sended_form.php",
+			"settings":
+			{
+				"buffer_size": 256,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 58.0,
+		"last_filter": "syn php",
+		"selected_items":
+		[
+			[
+				"syn php",
+				"Set Syntax: PHP"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"de"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application/views",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application/views/template"
+	],
+	"file_history":
+	[
+		"/C/Users/User/Dropbox (Rate it)/Rate it Team Folder/rateit/application/views/change_password_success.php",
+		"/C/Users/User/Dropbox (Rate it)/Rate it Team Folder/rateit/application/controllers/rateit.php",
+		"/C/Users/User/Downloads/MOVIE/Dominion.S02E01.1080p.WEB-DL.DD5.1.H.264-ECI/Dominion.S02E01.Heirs.Of.Salvation.1080p.WEB-DL.DD5.1.H.264-ECI.srt",
+		"/C/Users/User/Downloads/MOVIE/Dominion.S02E01.1080p.WEB-DL.DD5.1.H.264-ECI/- README - subs.sab.bz - Brought to you by  xen.headoff.com -.html",
+		"/C/Users/User/OTHER/Desktop/templates/web/single.html",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application/views/template/Header.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application/config/config.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application/views/dashboard/Send_mail.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application/views/dashboard/Reseive_message.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application/controllers/Dashboard.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application/controllers/Users.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application/views/dashboard/Sended_message.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/assets/js/custom.js",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application/controllers/Main.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application/controllers/Upload.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application/views/Upload_success.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application/models/User.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application/models/Uuser.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application/views/dashboard.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/system/core/Router.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/system/core/CodeIgniter.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application/config/autoload.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application/config/routes.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/index.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application/config/constants.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application/core/index.html",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application/views/change_password.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application/controllers/dashboard.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application/controllers/upload.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application/controllers/users.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application/views/dashboard/reseive_message.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/assets/css/style.css",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application/models/user.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application/views/dashboard_header.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application/views/dashboard/delete_sended_form.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application/views/dashboard/delete_receive_form.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application/views/dashboard/sended_message.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application/views/dashboard/sended.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/ci_mail/application/models/user_model.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application/views/dashboard/inbox.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/ci_mail/application/views/user/inbox.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/ci_mail/application/views/user/receive_message.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/ci_mail/application/views/user/delete_receive_mail_form.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/ci_mail/application/views/user/sended_message.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/ci_mail/application/controllers/dashboard.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/ci_mail/application/controllers/user.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application/views/dashboard/show_unreaded_messages.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application/views/dashboard/no_messages.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/ci_mail/application/views/user/show_unreaded_mails.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application/views/dashboard/send_mail.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/ci_mail/application/views/user/sended.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/ci_mail/application/views/user/send_mail.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application/views/change_password_success.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application/views/login.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application/views/upload_form.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/ci_mail/application/views/user/registration.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application/views/dashboard_footer.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application/views/template/header.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application/controllers/ini.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application/views/upload_success.php",
+		"/C/Users/User/Downloads/OTHER/TUTORIALS/mvc/libs/Bootstrap.php",
+		"/C/Users/User/Downloads/OTHER/TUTORIALS/mvc/sql_dump.txt",
+		"/C/Users/User/Downloads/OTHER/PROGRAMING/styles/semantic-tags.css",
+		"/C/Users/User/Downloads/OTHER/COOKING/DESSERTS/катми.txt",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application/views/register.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application/models/upload_picture.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/mvc/controllers/index.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/mvc/controllers/News.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/mvc/views/news/krimi.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/HOMEWORKS/HW_5.-MVCCI---Purvi-stupki/blog.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/mvc/controllers/dashboard.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/CI_Class/application/controllers/task.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/CI_Class/application/controllers/petar.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/CI_Class/application/controllers/index.html",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/CI_Class/application/controllers/countries.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application/controllers/index.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/HOMEWORKS/02-Inheritance/Grade.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/HOMEWORKS/HW_5-MVCCI/blog.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/VSS/OOP/homeworks/oop3-interface/cafe.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/HOMEWORKS/02-Inheritance/Human.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/HOMEWORKS/02-Inheritance/Student.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/HOMEWORKS/02-Inheritance/Subject.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/HOMEWORKS/02-Inheritance/Teacher.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/VSS/codeigniter/application/controllers/index.html",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application/views/resize.php",
+		"/C/Program Files/ImageMagick-6.9.2-Q16/index.html",
+		"/C/Users/User/Downloads/SERVER/SERVER/php/news.txt",
+		"/C/Users/User/Downloads/SERVER/SERVER/sendmail/ChangeLog.txt",
+		"/C/Users/User/OTHER/Documents/NetBeansProjects/RateIt/user_guide/libraries/image_lib.html",
+		"/C/Users/User/Downloads/SERVER/SERVER/mailoutput/mail-20151024-1121-285000.txt",
+		"/C/Users/User/Downloads/SERVER/SERVER/mailoutput/mail-20141124-0630-701000.txt",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application/views/index.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/ci_mail/application/views/user/login.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/ci_mail/application/views/user/dashboard.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/assets/css/bootstrap.css",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/assets/css/rateit.css",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application/views/template/footer.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/ci_mail/application/views/template/header.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/ci_mail/application/config/config.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/ci_mail/application/config/autoload.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/ci_mail/index.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application/config/database.php",
+		"/C/Users/User/OTHER/Desktop/.htaccess",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/New Folder/images/.htaccess",
+		"/C/Users/User/OTHER/Desktop/.htaccess.txt",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/ci_mail/application/views/template/main_template.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/ci_mail/application/views/errors/html/error_404.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/ci_mail/application/views/errors/cli/error_404.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/ci_mail/application/views/errors/cli/index.html",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/ci_mail/application/views/errors/cli/error_php.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/ci_mail/application/views/errors/cli/error_exception.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/ci_mail/application/views/user/registration_success.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/ci_mail/application/views/template/footer.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/VSS/ci_model/application/controllers/dlops.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/VSS/ci_model/application/models/dlops_model.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/VSS/ci_model/application/views/dlops/show_all_magics.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/VSS/ci_model/application/views/dlops/show_all_dlops.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/VSS/ci_model/application/views/template/main_template.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/VSS/ci_model/application/views/template/header.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/ci/view/application/views/dynamic2.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/ci/view/application/views/dynamic1.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/ci/view/application/controllers/dynamic.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/ci/view/application/views/template/main_template.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/ci/view/application/views/template/footer.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/ci/view/application/views/template/header.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/ci_mail/application/config/routes.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/ci_mail/application/views/user/ragistration_form.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/VSS/ci_model/application/config/config.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"C:\\Users\\User\\Downloads\\SERVER\\SERVER\\htdocs\\rateit",
+			"C:\\Users\\User\\OTHER\\Desktop\\templates\\web",
+			"C:\\Users\\User\\Downloads\\SERVER\\SERVER\\htdocs\\VSS\\codeigniter",
+			"C:\\Users\\User\\Downloads\\SERVER\\SERVER\\htdocs\\projectquots\\wp-content\\themes\\pinkrio.free",
+			"C:\\Users\\User\\Downloads\\SERVER\\SERVER\\htdocs\\projectquots\\pinkrio.free",
+			"C:\\Users\\User\\Downloads\\SERVER\\SERVER\\htdocs\\projectquots\\pinkrio.free\\",
+			"C:\\Users\\User\\Downloads\\SERVER\\SERVER\\htdocs\\projectquots",
+			"C:\\Users\\User\\Downloads\\SERVER\\SERVER\\htdocs\\projectquots\\wp-content\\themes\\pinkrio.free",
+			"C:\\Users\\User\\Downloads\\SERVER\\SERVER\\htdocs\\projectquots",
+			"C:\\Users\\User\\Downloads\\SERVER\\SERVER\\htdocs\\projectquots\\wp-content\\themes\\pinkrio.free",
+			"C:\\Users\\User\\Downloads\\SERVER\\SERVER\\htdocs\\projectquots",
+			"C:\\Users\\User\\Downloads\\SERVER\\SERVER\\htdocs\\wp_project",
+			"C:\\Users\\User\\Downloads\\SERVER\\SERVER\\htdocs\\VSS\\wc",
+			"C:\\Users\\User\\Downloads\\SERVER\\SERVER\\htdocs\\VSS\\wc\\WCM010013",
+			"C:\\Users\\User\\Downloads\\SERVER\\SERVER\\htdocs\\VSS\\PHP\\",
+			"C:\\Users\\User\\Downloads\\SERVER\\SERVER\\htdocs\\VSS\\PHP\\test\\bit",
+			"C:\\Users\\User\\Downloads\\SERVER\\SERVER\\htdocs\\VSS\\PHP\\recepti",
+			"",
+			"C:\\Users\\User\\Downloads\\SERVER\\SERVER\\htdocs\\VSS\\PHP\\php-for",
+			"C:\\Users\\User\\Downloads\\SERVER\\SERVER\\htdocs\\VSS\\PHP\\homeworks\\php-loops",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ftp",
+			"']; ",
+			"$this->user->",
+			"http://print-decor.eu/rateit/Users/",
+			"$this->user",
+			"change_password",
+			"dashboard",
+			"dashboard_header",
+			"login",
+			"template/main",
+			"register",
+			"template/main",
+			"upload_form",
+			"dashboard",
+			"table",
+			"input[type=\"",
+			"input[type=\"submit\"]",
+			"submit",
+			"input",
+			"login-right",
+			"acount-btn",
+			"simptip-position-bottom",
+			" p ",
+			" p",
+			"p",
+			"span",
+			"callbacks_tabs",
+			"callbacks_tabs callbacks1_tabs",
+			"img-responsive",
+			"col_2",
+			"sdfRating",
+			"container",
+			";\n",
+			"calcHeight",
+			"h3",
+			"h4",
+			"name",
+			"private",
+			"yit_sidebar_args",
+			"'header'",
+			"header",
+			"sidebar",
+			"sidebars",
+			"header",
+			"get_sidebar",
+			"register_sidebar",
+			"header",
+			"yit_header",
+			"sidebar-header",
+			"yit_header",
+			"blog",
+			"function do_action(",
+			"function do_action (",
+			"function do_action(",
+			"do_action(",
+			"do_action",
+			"function do_action()",
+			"yit_loop_internal",
+			"yit_get_meta_tags",
+			"yit_loop_internal",
+			"function get_post(",
+			"function get_post {",
+			"function get_post{",
+			"function get_post",
+			"testimonial",
+			"function get_the_ID",
+			"get_the_ID",
+			"marginLeft",
+			"echo '<img ",
+			"<img src",
+			"alt=\"echo $r[file_name]; \"",
+			"echo $r[file_name]; ",
+			"/>",
+			"/>\";\n",
+			"psd",
+			"user ",
+			"im",
+			"php",
+			"id",
+			".'-'.",
+			"php",
+			"New",
+			" $",
+			" <",
+			"hr",
+			"		\n",
+			".clear",
+			"../fonts",
+			"inner",
+			".widget_text",
+			"widget_text",
+			" widget_text",
+			"widget_text",
+			"widget",
+			"widget widget_text",
+			"url",
+			"images",
+			"../fonts",
+			"/fonts",
+			".content{",
+			".content {",
+			".content{",
+			".content",
+			".content{",
+			".content",
+			"url",
+			"/",
+			"font-awesome",
+			"#banner",
+			"banner",
+			"twentyfourteen_paging_nav",
+			"ul",
+			"widget",
+			"inn",
+			"icons",
+			"width",
+			"80px",
+			"400px",
+			"emo code",
+			"cat-item",
+			"cat-item cat-item",
+			"skills-img1",
+			"#line",
+			".des",
+			"15px",
+			"\n	padding-bottom: 83px;",
+			"5px",
+			".descc"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"$this->User->",
+			"http://print-decor.eu/rateit/index.php/Users/",
+			"$this->User",
+			"Change_password",
+			"Dashboard",
+			"Dashboard_header",
+			"Login",
+			"template/Main",
+			"Register",
+			"template/Main",
+			"Upload_form",
+			"Dashboard",
+			"h5",
+			"h3",
+			"public",
+			"echo '<img class=\"imgj\" ",
+			"<img title=\"'.$r['file_name'].'\" src",
+			"alt=\"$r[file_name]\"",
+			"$r[file_name]",
+			"assets/fonts",
+			"src=\"<?php echo get_template_directory_uri(); ?>/images/",
+			"src=\"<?php echo get_template_directory_uri(); ?>/images",
+			"src=\"<?php echo get_template_directory_uri(); ?>/",
+			"images"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "application/controllers/Upload.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6948,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 108.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/User/Dropbox (Rate it)/Rate it Team Folder/rateit/application/views/dashboard/sended.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 579,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "application/config/autoload.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3924,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8,
+								9
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": -0.0,
+						"translation.y": 792.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "application/views/Upload_form.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1772,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 360.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "application/views/dashboard/Delete_sended_form.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 256,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								183,
+								160
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "rateit.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"homework",
+				"homeworks\\php-if\\task4.php"
+			],
+			[
+				"",
+				"php3\\task1.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"$Clear"
+			]
+		],
+		"width": 847.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 235.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
