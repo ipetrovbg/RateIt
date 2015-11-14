@@ -5,7 +5,7 @@
                     e.preventDefault();
                     $('#res').show();
                     
-                    
+                    /* My first entry in this project */
                     
                     var rateit = $(this).data('productid');
                     var stars = $(this).data('stars');
