@@ -4,7 +4,7 @@ $(document).ready(function () {
         var username = $(this).val();
         setTimeout(function () {
             $.ajax({
-                url: "http://print-decor.eu/rateit/Users/has_username", //your server side script
+                url: "http://localhost/rateit/index.php/Users/has_username", //your server side script
                 data: {username: username}, //our data
                 type: 'POST',
                 success: function (data) {
@@ -25,7 +25,7 @@ $(document).ready(function () {
     $("#username").blur(function () {
         var username = $(this).val();
         $.ajax({
-            url: "http://print-decor.eu/rateit/Users/has_username", //your server side script
+            url: "http://localhost/rateit/index.php/Users/has_username", //your server side script
             data: {username: username}, //our data
             type: 'POST',
             success: function (data) {
@@ -93,7 +93,7 @@ $(document).ready(function () {
         }
 
 //        $.ajax({
-//            url: "http://localhost/rateit/register/have_registered", //server side script checkout
+//            url: "http://localhost/rateit/index.php/register/have_registered", //server side script checkout
 //            data: {username: username, email: email}, //our data
 //            type: 'POST',
 //            success: function (data) {
@@ -118,7 +118,7 @@ $(document).ready(function () {
                 if (password.length > 0) {
                     if (conf_password === password && conf_password.length > 0) {
                         $.ajax({
-                            url: "http://print-decor.eu/rateit/Users/verifyregister", //server side script checkout
+                            url: "http://localhost/rateit/index.php/Users/verifyregister", //server side script checkout
                             data: {
                                 username: username,
                                 password: password,
@@ -133,7 +133,7 @@ $(document).ready(function () {
                                     $("#email").css("border-color", "green");
                                     $('#response_reg').html('<h3 style="color: green;">You have just successfully register!</h3>');
                                     setTimeout(function () {
-                                        window.location.href = "http://print-decor.eu/rateit/Users/login";
+                                        window.location.href = "http://localhost/rateit/index.php/Users/login";
                                     }, 1500);
 
                                 } else {
