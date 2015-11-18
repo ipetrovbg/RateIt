@@ -57,11 +57,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                 <li><div class="profile_wrapper"><img src="<?php echo base_url() . $member_info['pic']; ?>" alt="<?php echo $member_info['full_name']; ?>"/></div></li>
                                 <?php
                                 if ($this->session->rights == 1):
-                                    echo '<li><p><span class="simptip-position-bottom simptip-movable" data-tooltip="' . $member_info['full_name'] . '">' . anchor('moderator', $member_info['username']) . '</span></p></li>';
+                                    echo '<li><p><span class="simptip-position-bottom simptip-movable" data-tooltip="' . $member_info['full_name'] . '"><a href="'. base_url() .'Moderator_dashboard">'.$member_info['username'].'</a></span></p></li>';
                                 elseif ($this->session->rights == 2):
-                                    echo '<li><p><span class="simptip-position-bottom simptip-movable" data-tooltip="' . $member_info['full_name'] . '">' . anchor('admin', $member_info['username']) . '</span></p></li>';
+                                    echo '<li><p><span class="simptip-position-bottom simptip-movable" data-tooltip="' . $member_info['full_name'] . '"><a href="'. base_url() .'ad">' . $member_info['username'] . '</a></span></p></li>';
+                                    
                                 else:
-                                    echo '<li><p><span class="simptip-position-bottom simptip-movable" data-tooltip="' . $member_info['full_name'] . '">' . anchor('dashboard', $member_info['username']) . '</span></p></li>';
+                                    echo '<li><p><span class="simptip-position-bottom simptip-movable" data-tooltip="' . $member_info['full_name'] . '"><a href="'. base_url() .'Dashboard">' . $member_info['username'] . '</a></span></p></li>';
+                                    
                                 endif;
                                 ?>
                                 <li class="last"><i class="edit"> </i></li>
@@ -69,9 +71,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                             </ul>
                             <?php
                         } else {
-                            echo anchor('users/registration', 'Create an Account', array('title' => 'Create an Account', 'class' => 'acount-btn'));
+                            echo anchor('Users/registration', 'Create an Account', array('title' => 'Create an Account', 'class' => 'acount-btn'));
                             echo " ";
-                            echo anchor('users/login', ' Login', array('title' => 'Login', 'class' => 'acount-btn'));
+                            echo anchor('Users/login', ' Login', array('title' => 'Login', 'class' => 'acount-btn'));
                         }
                         ?>
                     </div>

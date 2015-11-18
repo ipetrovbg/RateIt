@@ -4,7 +4,7 @@ $(document).ready(function () {
         var username = $(this).val();
         setTimeout(function () {
             $.ajax({
-                url: "http://localhost/rateit/index.php/Users/has_username", //your server side script
+                url: "http://print-decor.eu/rateit/index.php/Users/has_username", //your server side script
                 data: {username: username}, //our data
                 type: 'POST',
                 success: function (data) {
@@ -25,7 +25,7 @@ $(document).ready(function () {
     $("#username").blur(function () {
         var username = $(this).val();
         $.ajax({
-            url: "http://localhost/rateit/index.php/Users/has_username", //your server side script
+            url: "http://print-decor.eu/rateit/index.php/Users/has_username", //your server side script
             data: {username: username}, //our data
             type: 'POST',
             success: function (data) {
@@ -93,7 +93,7 @@ $(document).ready(function () {
         }
 
 //        $.ajax({
-//            url: "http://localhost/rateit/index.php/register/have_registered", //server side script checkout
+//            url: "http://localhost/rateit/register/have_registered", //server side script checkout
 //            data: {username: username, email: email}, //our data
 //            type: 'POST',
 //            success: function (data) {
@@ -117,40 +117,41 @@ $(document).ready(function () {
             if (validateEmail(email) === true) {
                 if (password.length > 0) {
                     if (conf_password === password && conf_password.length > 0) {
-                        $.ajax({
-                            url: "http://localhost/rateit/index.php/Users/verifyregister", //server side script checkout
-                            data: {
-                                username: username,
-                                password: password,
-                                email: email,
-                                full_name: full_name
-                            }, //our data
-                            type: 'POST',
-                            success: function (data) {
-                                //console.log(data);
-                                if (data == 0) {
-                                    $("#reg_username").css("border-color", "green");
-                                    $("#email").css("border-color", "green");
-                                    $('#response_reg').html('<h3 style="color: green;">You have just successfully register!</h3>');
-                                    setTimeout(function () {
-                                        window.location.href = "http://localhost/rateit/index.php/Users/login";
-                                    }, 1500);
+                $.ajax({
+                    url: "http://print-decor.eu/rateit/Users/verifyregister", //server side script checkout
+                    data: {
+                        username: username,
+                        password: password,
+                        email: email,
+                        full_name: full_name
+                    }, //our data
+                    type: 'POST',
+                    success: function (data) {
+                        console.log(data);
+                        if (data == 0) {
+                            $("#reg_username").css("border-color", "green");
+                            $("#email").css("border-color", "green");
+                            $('#response_reg').html('<h3 style="color: green;">You have just successfully register!</h3>');
+                            setTimeout(function () {
+                                window.location.href = "http://print-decor.eu/rateit/Users/login";
+                            }, 1500);
 
-                                } else {
-                                    $("#reg_username").css("border-color", "red");
-                                    $("#email").css("border-color", "red");
-                                    $("#response_reg").html('<h3 style="color: red;">The username or email are busy!</h3>');
-                                }
-                                // console.log(data);
-                            },
-                            error: function (msg) {
-                                $(this).append('<li style="color:red">' + msg + '</li>');
-                            }
-                        });
+                        } else {
+                            $("#reg_username").css("border-color", "red");
+                            $("#email").css("border-color", "red");
+                            $("#response_reg").html('<h3 style="color: red;">The username or email are busy!</h3>');
+                        }
+                        // console.log(data);
+                    },
+                    error: function (msg) {
+                        $(this).append('<li style="color:red">' + msg + '</li>');
+                    }
+                });
                     }
 
-                }
+
             }
+        }
         }
 
     });

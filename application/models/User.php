@@ -1,6 +1,6 @@
 <?php
 
-Class user extends CI_Model {
+Class User extends CI_Model {
 
     function login($username, $password) {
         $this->db->select('*');
@@ -200,7 +200,26 @@ Class user extends CI_Model {
         $q = $this->db->get('mails');
         return $q->result_array();
     }
+    public function update_all_member_mails($old, $new)
+    {
+        
+        $this->update_all_receiver_member_mails($old, $new);
+        $this->update_all_sender_member_mails($old, $new);
+        
+    }
+    public function update_all_receiver_member_mails($old, $new)
+    {
 
+        $this->db->set('receiver', $new);
+        $this->db->where('receiver', $old);
+        $this->db->update('mails');
+    }
+    public function update_all_sender_member_mails($old, $new)
+    {
+        $this->db->set('sender', $new);
+        $this->db->where('sender', $old);
+        $this->db->update('mails');
+    }
     public function delete_receive_mail($mail)
     {
         $date = date('Y-m-d');
@@ -216,6 +235,13 @@ Class user extends CI_Model {
         $this->db->where('id', $mail);
         $this->db->where('sender', $this->session->username);
         $this->db->update('mails');
+    }
+    
+    public function change_username($username)
+    {        
+        $this->db->set('username', $username);
+        $this->db->where('username', $this->session->username);
+        $this->db->update('members');
     }
 
 }
