@@ -21,9 +21,12 @@
                     <div class="col_1_of_3 span_1_of_3">
                         <h3>Categories</h3>
                         <ul class="first">
-                            <li><a href="#">Dance</a></li>
-                            <li><a href="#">History</a></li>
-                            <li><a href="#">Specials</a></li>
+                            <?php
+                                foreach ($categories as $value) {
+                                    echo '<li><a href="'.base_url().'category/'.$value['id'].'">'.$value['name'].'</a></li>';
+                                }
+                            ?>
+                           
                         </ul>
                     </div>
                     <div class="col_1_of_3 span_1_of_3">

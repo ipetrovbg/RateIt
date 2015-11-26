@@ -9,11 +9,15 @@ class Upload extends CI_Controller {
         $this->load->helper(array('form', 'file', 'url'));
         $this->load->model('User');
         $this->load->model('Upload_picture');
+        
+        $this->load->model('Pub_model');
     }
 
     public function index() {
         if ($this->session->username) {
-
+            
+            $data['categories'] = $this->Pub_model->get_limit_category(3);
+            
             $data['count_unreaded_message'] = $this->User->count_unreaded_message($this->session->username);
 
             $data['title'] = "Upload";
@@ -39,29 +43,6 @@ class Upload extends CI_Controller {
     public function do_upload() {
         if ($this->session->username) {
 
-            /*
-              $this->load->library('ftp');
-
-              $ftp['hostname'] = 'ftp://ftp.print-decor.eu';
-              $ftp['username'] = 'prinkkpb';
-              $ftp['password'] = 'printdecoreu89';
-              $ftp['debug']        = TRUE;
-
-              $this->ftp->connect($ftp);
-
-              $this->ftp->delete_file($this->input->post('big_pic'));
-              $this->ftp->delete_file($this->input->post('thumb_pic'));
-
-              $this->ftp->close();
-             */
-
-
-
-
-
-
-
-
             $data['count_unreaded_message'] = $this->User->count_unreaded_message($this->session->username);
 
             $config['upload_path'] = './assets/profile/';
@@ -75,12 +56,10 @@ class Upload extends CI_Controller {
             $this->img = $this->upload->data();
 
 
-
-
             if (!$this->upload->do_upload('userfile')) {
 
-
-
+                $data['categories'] = $this->Pub_model->get_limit_category(3);
+                
                 $data['count_unreaded_message'] = $this->User->count_unreaded_message($this->session->username);
 
                 $data['error'] = $this->upload->display_errors();
@@ -104,6 +83,8 @@ class Upload extends CI_Controller {
 
                 $this->load->view('template/Main', $data);
             } else {
+                
+                $data['categories'] = $this->Pub_model->get_limit_category(3);
 
                 if ($this->input->post('big_pic') != 1) {
                     unlink($this->input->post('big_pic'));
@@ -169,58 +150,6 @@ class Upload extends CI_Controller {
             }
         } else {
             redirect('users/login');
-        }
-    }
-
-    public function resize() {
-        if ($this->session->username) {
-
-            $data['count_unreaded_message'] = $this->User->count_unreaded_message($this->session->username);
-            
-//              $this->load->library('image_lib');
-//              $base_name_pic = basename($this->input->post('pic'));
-//              $dir = dirname($this->input->post('pic'));              
-//              $thumb_pic_real_path = $dir . DIRECTORY_SEPARATOR . $base_name_pic;
-//              var_dump($thumb_pic_real_path);
-//              exit();
-//              $config['image_library'] = 'gd2';
-//              $config['source_image'] = $this->input->post('pic');
-//              $config['x_axis'] = 35;
-//              $config['y_axis'] = 35;
-//              $config['create_thumb'] = TRUE;
-//              $config['height']       = 35;
-//              $config['new_image'] = 'crop_'.$base_name_pic;
-//
-//              
-//              
-//             $this->load->library('image_lib', $config);
-             
-//              if ( ! $this->image_lib->crop())
-//              {
-//                $data['display_errors'] = $this->image_lib->display_errors();;
-//              }else{
-//                  $data['display_errors'] = "Success";
-//              }
-            $member_id = $this->User->get_member_id($this->session->username);
-
-            $data['member_info'] = $this->User->getInfo($member_id['id']);
-
-            $data['title'] = $data['member_info']['full_name'] . " - Dashboard - Rate it";
-
-            $data['error'] = ' ';
-
-
-
-            $templates[0] = 'Dashboard_header';
-            $templates[1] = 'Dashboard';
-            $templates[2] = 'Upload_form';
-            $templates[3] = 'Dashboard_footer';
-
-            $data['dynamic'] = $templates;
-
-            $this->load->view('template/Main', $data);
-        } else {
-            //redirect('users/Login');
         }
     }
 

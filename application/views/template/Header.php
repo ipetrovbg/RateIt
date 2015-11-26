@@ -13,10 +13,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         <meta name="keywords" content="Movie_store Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
               Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
-        <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+        
         <link href="<?php echo base_url(); ?>assets/css/bootstrap.css" rel='stylesheet' type='text/css' />
         <link href="<?php echo base_url(); ?>assets/css/style.css" rel="stylesheet" type="text/css" media="all" />
         <!-- start plugins -->
+        
         <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery-1.11.1.min.js"></script>
         <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/custom.js"></script>
         <script src="<?php echo base_url(); ?>assets/js/responsiveslides.min.js"></script>
@@ -41,8 +42,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     <div class="col-sm-3 logo"><a href="<?php echo base_url(); ?>"><img src="<?php echo base_url(); ?>assets/images/logo.png" alt=""/></a></div>
                     <div class="col-sm-6 nav">
                         <ul>
-                            <li> <span class="simptip-position-bottom simptip-movable" data-tooltip="comic"><a href="movie.html"> </a></span></li>
-                            <li><span class="simptip-position-bottom simptip-movable" data-tooltip="movie"><a href="movie.html"> </a> </span></li>
+                            <li> <span class="simptip-position-bottom simptip-movable" data-tooltip="Home"><a href="<?php echo base_url(); ?>"> </a></span></li>
+                            <li><span class="simptip-position-bottom simptip-movable" data-tooltip="Categories"><a href="<?php echo base_url(); ?>categories"> </a> </span></li>
                             <li><span class="simptip-position-bottom simptip-movable" data-tooltip="video"><a href="movie.html"> </a></span></li>
                             <li><span class="simptip-position-bottom simptip-movable" data-tooltip="game"><a href="movie.html"> </a></span></li>
                             <li><span class="simptip-position-bottom simptip-movable" data-tooltip="tv"><a href="movie.html"> </a></span></li>

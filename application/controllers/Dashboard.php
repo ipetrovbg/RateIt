@@ -18,6 +18,8 @@ class Dashboard extends CI_Controller {
         parent::__construct();
 
         $this->load->model('User');
+        
+        $this->load->model('Pub_model');
 
         $this->load->helper('form');
 
@@ -28,6 +30,8 @@ class Dashboard extends CI_Controller {
 
     public function index() {
         if ($this->session->username) {
+            
+            $data['categories'] = $this->Pub_model->get_limit_category(3);
 
             $member_id = $this->User->get_member_id($this->session->username);
 
@@ -76,6 +80,8 @@ class Dashboard extends CI_Controller {
 
     public function inbox($arg=FALSE)
     {
+        
+        $data['categories'] = $this->Pub_model->get_limit_category(3);
         // проверявам дали е логнал се потребител. Ако не е го връщам в логин страницата redirect('user/login_view');
         if ($this->session->username) {
 
@@ -141,6 +147,7 @@ class Dashboard extends CI_Controller {
 
     public function sended($msg=FALSE, $arg=FALSE)
     {
+        $data['categories'] = $this->Pub_model->get_limit_category(3);
         // проверявам дали е логнал се потребител. Ако не е го връщам в логин страницата redirect('user/login_view');
         if ($this->session->username) {
             $data['count_unreaded_message'] = $this->User->count_unreaded_message($this->session->username);
@@ -157,7 +164,7 @@ class Dashboard extends CI_Controller {
                 
                 $data['receiver_pic'] = $this->User->show_user_pic($data['message']['receiver']);
                 
-                $data['title'] = $data['message']['title'] . ' - Sended';
+                $data['title'] = $data['message']['title'] . ' - Sent';
 
                 $templates[0] = 'Dashboard_header';
                 $templates[1] = 'dashboard/Sended_message';
@@ -170,7 +177,7 @@ class Dashboard extends CI_Controller {
 
             }else{
 
-                $data['title'] = "Send";
+                $data['title'] = "Sent messages";
                 if ($msg) {
                     $data['msg'] = $msg;
                 }else{
@@ -200,6 +207,7 @@ class Dashboard extends CI_Controller {
 
     public function send_view()
     {
+        $data['categories'] = $this->Pub_model->get_limit_category(3);
         if ($this->session->username) {
 
             $data['count_unreaded_message'] = $this->User->count_unreaded_message($this->session->username);
@@ -208,7 +216,7 @@ class Dashboard extends CI_Controller {
 
             $data['member_info'] = $this->User->getInfo($member_id['id']);
 
-            $data['title'] = "Sending Mail";
+            $data['title'] = "Sending Message";
 
 
             $templates[0] = 'Dashboard_header';

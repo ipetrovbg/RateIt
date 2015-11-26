@@ -17,6 +17,8 @@ class Moderator_dashboard extends CI_Controller{
         parent::__construct();
         
         $this->load->model('User');
+        
+        $this->load->model('Pub_model');
 
         $this->load->helper('form');
 
@@ -24,6 +26,8 @@ class Moderator_dashboard extends CI_Controller{
     }
     public function index() {
         if($this->session->rights == 1 || $this->session->rights == 2) :
+            
+            $data['categories'] = $this->Pub_model->get_limit_category(3);
             
             $member_id = $this->User->get_member_id($this->session->username);
 

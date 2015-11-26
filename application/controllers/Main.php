@@ -6,10 +6,14 @@ class Main extends CI_Controller {
         parent::__construct();
 
         $this->load->model('User');
+        
+        $this->load->model('Pub_model');
     }
     
 
     public function index() {
+        
+        $data['categories'] = $this->Pub_model->get_limit_category(3);
         
         // title of the page
         $data['title'] = "Rate it - Home";
@@ -19,6 +23,11 @@ class Main extends CI_Controller {
 
         //get user info from model user
         $data['member_info'] = $this->User->getInfo($id['id']);
+        
+        $data['pubs'] = $this->Pub_model->get_featurd_pubs();
+        
+        $data['pubs_slider'] = $this->Pub_model->get_pubs_slider(7);
+        
 
         $templates[0] = 'Index';
         

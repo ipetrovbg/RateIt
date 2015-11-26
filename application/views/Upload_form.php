@@ -38,7 +38,7 @@
         echo form_input($big_pic);
 
         echo form_input($thumb_pic);
-    }else{
+    } else {
         $big_pic = array(
             'type' => 'hidden',
             'name' => 'big_pic',

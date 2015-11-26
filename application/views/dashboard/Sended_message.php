@@ -1,5 +1,5 @@
 <div class="col-md-12 dashboard_primary_menu">
-<h3>Sended - Message</h3>
+<h3>Sent - Message</h3>
 <table border="1">	
 <?php
 		$data['id'] = $message['id'];

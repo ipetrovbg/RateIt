@@ -520,18 +520,19 @@
 	"buffers":
 	[
 		{
-			"file": "/C/Users/User/Dropbox (Rate it)/Rate it Team Folder/rateit/application/views/Index.php",
+			"file": "/C/Users/User/OTHER/Desktop/mytest.html",
 			"settings":
 			{
-				"buffer_size": 18214,
-				"line_ending": "Windows"
+				"buffer_size": 166,
+				"line_ending": "Windows",
+				"name": "<figure class='logo'>"
 			}
 		},
 		{
-			"file": "/C/Users/User/Dropbox (Rate it)/Rate it Team Folder/rateit/assets/js/custom.js",
+			"file": "/C/Users/User/OTHER/Desktop/templates/web/movie.html",
 			"settings":
 			{
-				"buffer_size": 6137,
+				"buffer_size": 19012,
 				"line_ending": "Windows"
 			}
 		}
@@ -573,13 +574,26 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit",
-		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application",
-		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application/views",
-		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application/views/template"
 	],
 	"file_history":
 	[
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/CI_Class/application/views/welcome_message.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/CI_Class/application/views/test_view2.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/CI_Class/application/views/test_view.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/CI_Class/application/controllers/petar.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/CI_Class/application/views/index.html",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/CI_Class/application/controllers/index.html",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/CI_Class/application/controllers/countries.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/ci/view/application/controllers/dynamic.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/VSS/codeigniter/application/controllers/Welcome.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/VSS/codeigniter/application/controllers/index.html",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/VSS/ci_model/application/views/dlops/show_all_dlops.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/VSS/ci_model/application/views/dlops/dlop_update_show.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/VSS/OOP/class/students/Grade.php",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/VSS/OOP/class/students/Grant.php",
+		"/C/Users/User/Dropbox (Rate it)/Rate it Team Folder/rateit/application/views/Index.php",
+		"/C/Users/User/Dropbox (Rate it)/Rate it Team Folder/rateit/assets/js/custom.js",
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application/controllers/Users.php",
 		"/C/Users/User/Dropbox (Rate it)/Rate it Team Folder/rateit/application/views/template/Footer.php",
 		"/C/Users/User/Dropbox (Rate it)/Rate it Team Folder/rateit/application/views/template/Header.php",
 		"/C/Users/User/Dropbox (Rate it)/Rate it Team Folder/rateit/application/views/template/Main.php",
@@ -600,7 +614,6 @@
 		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application/views/dashboard/Send_mail.php",
 		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application/views/dashboard/Reseive_message.php",
 		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application/controllers/Dashboard.php",
-		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application/controllers/Users.php",
 		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application/views/dashboard/Sended_message.php",
 		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/assets/js/custom.js",
 		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application/controllers/Main.php",
@@ -660,9 +673,6 @@
 		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/HOMEWORKS/HW_5.-MVCCI---Purvi-stupki/blog.php",
 		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/mvc/controllers/dashboard.php",
 		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/CI_Class/application/controllers/task.php",
-		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/CI_Class/application/controllers/petar.php",
-		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/CI_Class/application/controllers/index.html",
-		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/CI_Class/application/controllers/countries.php",
 		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application/controllers/index.php",
 		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/HOMEWORKS/02-Inheritance/Grade.php",
 		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/HOMEWORKS/HW_5-MVCCI/blog.php",
@@ -671,7 +681,6 @@
 		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/HOMEWORKS/02-Inheritance/Student.php",
 		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/HOMEWORKS/02-Inheritance/Subject.php",
 		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/HOMEWORKS/02-Inheritance/Teacher.php",
-		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/VSS/codeigniter/application/controllers/index.html",
 		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/rateit/application/views/resize.php",
 		"/C/Program Files/ImageMagick-6.9.2-Q16/index.html",
 		"/C/Users/User/Downloads/SERVER/SERVER/php/news.txt",
@@ -695,19 +704,7 @@
 		"/C/Users/User/OTHER/Desktop/.htaccess.txt",
 		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/ci_mail/application/views/errors/html/error_404.php",
 		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/ci_mail/application/views/errors/cli/error_404.php",
-		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/ci_mail/application/views/errors/cli/index.html",
-		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/ci_mail/application/views/errors/cli/error_php.php",
-		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/ci_mail/application/views/errors/cli/error_exception.php",
-		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/ci_mail/application/views/user/registration_success.php",
-		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/ci_mail/application/views/template/footer.php",
-		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/VSS/ci_model/application/controllers/dlops.php",
-		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/VSS/ci_model/application/models/dlops_model.php",
-		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/VSS/ci_model/application/views/dlops/show_all_magics.php",
-		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/VSS/ci_model/application/views/dlops/show_all_dlops.php",
-		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/VSS/ci_model/application/views/template/main_template.php",
-		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/VSS/ci_model/application/views/template/header.php",
-		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/ci/view/application/views/dynamic2.php",
-		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/ci/view/application/views/dynamic1.php"
+		"/C/Users/User/Downloads/SERVER/SERVER/htdocs/ci_mail/application/views/errors/cli/index.html"
 	],
 	"find":
 	{
@@ -920,25 +917,26 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Users/User/Dropbox (Rate it)/Rate it Team Folder/rateit/application/views/Index.php",
+					"file": "/C/Users/User/OTHER/Desktop/mytest.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 18214,
+						"buffer_size": 166,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								18214
+								158,
+								158
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
+							"auto_name": "<figure class='logo'>",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
@@ -950,27 +948,27 @@
 				},
 				{
 					"buffer": 1,
-					"file": "/C/Users/User/Dropbox (Rate it)/Rate it Team Folder/rateit/assets/js/custom.js",
+					"file": "/C/Users/User/OTHER/Desktop/templates/web/movie.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6137,
+						"buffer_size": 19012,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								6137
+								14355,
+								14355
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 72.0,
+						"translation.y": 4500.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,

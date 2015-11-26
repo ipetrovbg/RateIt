@@ -8,4 +8,4 @@ foreach ($dynamic as $value) {
 }
 
 
-$this->load->view('template/Footer');
+$this->load->view('template/Footer', $categories);

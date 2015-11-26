@@ -63,3 +63,6 @@ $route['inbox']     = "dashboard/inbox";
 $route['inbox/(:num)']     = "dashboard/inbox/$1";
 $route['creating-category'] = "Pub/create_category_view";
 $route['change-username'] = "Users/change_username_view";
+$route['upload-new-pub'] = "Pub/upload_pub_view";
+$route['category/(:num)']     = "Categories/category/$1";
+$route['categories']     = "Categories";

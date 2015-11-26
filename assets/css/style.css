@@ -4,6 +4,26 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 */
+ul.list_3 li p{
+    margin-top: 50px;
+}
+ul.list_5  li p{
+    margin-top: 50px;
+}
+.clear{
+    clear: both;
+}
+/*ADMINISTRATOR PANEL START*/
+.ad{
+    border-bottom: 2px solid #505050;
+    color: #222;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/*ADMINISTRATOR PANEL END*/
+
 .star_rating{
     cursor: pointer;
 }
@@ -876,6 +896,11 @@ p.m_3{
     width: 100%;
 
     text-align: center;
+}
+
+.m_5 img{
+    
+    margin: 0 auto !important;
 }
 .grid_2:hover, .row_2:hover, .m_5:hover, .m_6:hover, .m_7:hover, .m_8:hover{
 
